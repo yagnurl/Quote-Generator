@@ -54,7 +54,7 @@ async function getQuote() {
 
     }
 
-    /* BURADA HATA YAKALAYACAK. SEBEBİ DE LOCALHOST'TAN API URL ÇAĞIRILMASINA İZİN YOK */
+    
     catch (error) {
         getQuote();
         // console.log('whoops, no quote', error);
